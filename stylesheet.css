@@ -1,0 +1,51 @@
+/* Cannot use this stylesheet to style bootstrap elemets. */
+
+h1 {
+  font-family: Arial;
+  font-size: 5em;
+  display: flex;
+  justify-content: center;
+  padding-top: 0.5em;
+}
+
+.pageBoxes {
+  display: flex;
+  justify-content: space-around;
+}
+
+#box {
+  border-style: solid;
+  height: 35em;
+  width: 25em;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  align-content: space-around;
+  padding: 2.5em;
+  margin-bottom: 2em;
+}
+
+.citySearcher {
+  display: flex;
+  /*flex-flow: column wrap;*/
+  justify-content: center;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+.citySearchButton {
+  display: flex;
+  border-style: solid;
+}
+
+.submitButton {
+  margin: 0.15em;
+}
+
+.informationBox {
+
+}
+
+.mapBox {
+
+}
