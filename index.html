@@ -2,8 +2,10 @@
 <html lang="en">
   <head>
     <title>Explorcity - Home</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
     <link type="text/css" rel="stylesheet" href="stylesheet.css"/>
+  </head>
+  <body>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous"/>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <a class="navbar-brand" href="./index.html">Explorcity</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -22,24 +24,32 @@
         </ul>
       </div>
     </nav>
-  </head>
-  <body>
-    <h1>Explorcity</h1>
-    <div class="citySearcher">
-      <form>
-        <input class="citySearchButton" type="text" name="city" placeholder="City, State"></input>
-        <div class="submitButton text-center">
-          <input class="btn btn-dark" type="submit" value="Explore">
-        </div>
-      </form>
+    <div class="page-top">
+      <div class="explorcity-text">
+        <h1>Explorcity</h1>
+      </div>
+      <div class="citySearcher">
+        <form>
+          <input class="citySearchButton" type="text" name="city" placeholder="City, State"></input>
+          <div class="submitButton text-center">
+            <input class="btn btn-dark" type="submit" value="Explore"></input>
+          </div>
+        </form>
+      </div>
     </div>
     <div class="pageBoxes">
       <div class="mapBox" id="box">
         <p>Google Map Here</p>
       </div>
       <div class="informationBox" id="box">
-        <p>Location Information Here</p>
+        <p>How to Use:</p>
+        <ol class="how-to-list">
+          <li>Enter your city and state in the box above.</li>
+          <li>Press the EXPLORE button.</li>
+          <li>Information on the random location will be located here.</li>
+          <li>You can choose to explore the location or re-roll for a new one.</li>
+        </ol>
       </div>
     </div>
   </body>
-<html>
+</html>

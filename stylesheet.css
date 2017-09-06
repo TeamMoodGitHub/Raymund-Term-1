@@ -1,36 +1,22 @@
-/* Cannot use this stylesheet to style bootstrap elemets. */
+.page-top {
+  background-image: url(bg-city.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
 
-h1 {
-  font-family: Arial;
-  font-size: 5em;
+.explorcity-text h1 {
   display: flex;
   justify-content: center;
+  font-family: Arial;
+  font-size: 6.5em;
   padding-top: 0.5em;
-}
-
-.pageBoxes {
-  display: flex;
-  justify-content: space-around;
-}
-
-#box {
-  border-style: solid;
-  height: 35em;
-  width: 25em;
-  display: flex;
-  flex-flow: row nowrap;
-  justify-content: space-around;
-  align-content: space-around;
-  padding: 2.5em;
-  margin-bottom: 2em;
 }
 
 .citySearcher {
   display: flex;
-  /*flex-flow: column wrap;*/
   justify-content: center;
   margin-top: 2em;
-  margin-bottom: 2em;
 }
 
 .citySearchButton {
@@ -38,14 +24,41 @@ h1 {
   border-style: solid;
 }
 
+.pageBoxes {
+  display: flex;
+  justify-content: space-around;
+  background-color: #DCDCDC;
+  border-style: double;
+  border-width: thick;
+}
+
+.pageBoxes #box {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-content: space-around;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  padding: 1.5em;
+  height: 35em;
+  width: 25em;
+  border-style: solid;
+  background-color: white;
+}
+
 .submitButton {
   margin: 0.15em;
 }
 
-.informationBox {
-
+.informationBox p {
+  font-family: Verdana;
+  font-size: 2em;
+  margin-bottom: 0em;
 }
 
-.mapBox {
-
+.how-to-list {
+  font-family: Verdana;
+  font-size: 1.5em;
+  display: flex;
+  flex-direction: column;
 }
