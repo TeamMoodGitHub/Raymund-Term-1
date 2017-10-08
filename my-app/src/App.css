@@ -22,3 +22,61 @@
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+
+/* Wanted to keep the above CSS just for future reference to see what else I
+   can do with CSS */
+
+.header {
+  background: black;
+}
+
+.explorcity {
+  font-family: Arial;
+  font-size: 5em;
+  color: white;
+  display: flex;
+  justify-content: center;
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
+}
+
+.main {
+  background-image: url('./bg-city.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.exploreButtons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+.dropdown {
+  margin-bottom: 0.5em;
+}
+
+.boxes {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+#box {
+  border-style: groove;
+  height: 35em;
+  width: 27em;
+}
+
+.infoBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: Verdana;
+  text-align: center;
+  background-color: white;
+}
